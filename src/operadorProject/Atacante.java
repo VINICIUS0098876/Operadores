@@ -16,4 +16,11 @@ public class Atacante extends Operador {
 		System.out.println("Lançando granda de fragmentação!");
 	}
 	
+	@Override
+	public String toString() {
+		// Aqui estamos puxando o relatorio criado no metodo toString() da classe pai Operador usando super() que retorna a ficha do Operador como (Nome, Patente e Vida).
+		// Pegamos e adicionamos a funcionalidade nova(qtdGranada) para aparecer junto no terminal, pois na classe pai não tem essa funcionalidade.
+		return super.toString() + " | Granadas: " + this.qtdGranada;
+	}
+	
 }
