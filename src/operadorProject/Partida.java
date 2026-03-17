@@ -17,10 +17,6 @@ public class Partida {
 		System.out.println("--- AÇÃO ---");
 		defensor1.usarHabilidade();
 		
-
-		
-		
-
 	}
 
 }
