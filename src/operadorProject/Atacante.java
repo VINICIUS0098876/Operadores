@@ -13,7 +13,7 @@ public class Atacante extends Operador {
 	// Aqui fazemos a sobreescrita do metodo da classe pai utilizando o @Override para que essa classe Atacante tenha suas proprias funções.
 	@Override
 	public void usarHabilidade() {
-		System.out.println("Lançando granda de fragmentação");
+		System.out.println("Lançando granda de fragmentação!");
 	}
 	
 }
